@@ -32,4 +32,3 @@ text_file = open("c:/Users/soum/Desktop/python prototypes/Output.json", "w")
 text_file.write('['+ str_content +']')
 text_file.close()
         
-        
