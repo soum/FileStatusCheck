@@ -13,8 +13,8 @@ def get_filepaths(directory):
 
     return file_paths
 
-# Run the above function and store its results in a variable.   
-full_file_paths = get_filepaths("Desktop/AutomationFileStatusCheck/StatusFiles")
+# Run the above function and store its results in a variable.   Users/soumghosh/Desktop
+full_file_paths = get_filepaths("Users/soumghosh/Desktop/AutomationFileStatusCheck/FileStatus")
 
 _content = []
 
@@ -28,7 +28,7 @@ str_content = ','.join(_content)
 # str_content = ','.join([str(i) for i in _content])
 
 print(str_content)
-text_file = open("Desktop/AutomationFileStatusCheck/Output.json", "w")
+text_file = open("Users/soumghosh/Desktop/AutomationFileStatusCheck/Output.json", "w")
 text_file.write('['+ str_content +']')
 text_file.close()
         
